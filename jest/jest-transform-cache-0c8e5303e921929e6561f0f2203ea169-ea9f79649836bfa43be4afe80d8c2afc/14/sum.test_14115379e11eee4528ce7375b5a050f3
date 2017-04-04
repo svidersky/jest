@@ -1,0 +1,7 @@
+'use strict';
+var _sum = require('./sum');var _sum2 = _interopRequireDefault(_sum);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+test('test', function () {
+  var l1 = [1, 5, 3, 5, 8, 9];
+  expect((0, _sum2.default)(l1)).toBe('1');
+}); // const sum = require('./sum');

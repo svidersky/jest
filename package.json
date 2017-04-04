@@ -1,0 +1,29 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum.js",
+  "dependencies": {
+    "jest": "^19.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-plugin-syntax-flow": "*",
+    "babel-plugin-transform-flow-strip-types": "*",
+    "babel-preset-env": "*",
+    "babel-preset-stage-0": "*",
+    "eslint": "*",
+    "eslint-config-airbnb": "*",
+    "eslint-plugin-flowtype": "*",
+    "eslint-plugin-import": "*",
+    "regenerator-runtime": "^0.10.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "eslint": "eslint"
+  },
+  "author": "",
+  "license": "ISC"
+}
